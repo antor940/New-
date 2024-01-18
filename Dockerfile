@@ -21,4 +21,4 @@ RUN curl -fsSL https://code-server.dev/install.sh | sh
 EXPOSE 8080
 
 # Start VS Code Server on port 8443
-CMD ["code-server", "--auth=none", "--port=8443"]
+CMD ["code-server", "--auth=none", "--port=8080"]
